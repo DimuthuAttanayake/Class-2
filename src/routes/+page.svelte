@@ -1,7 +1,6 @@
 <script>
   import * as d3 from 'd3'
 
-
 //1.data
 const data = [
  { city: "New York", temp: 84 },
@@ -160,7 +159,8 @@ width="60"
 height={height - margin.bottom - yScale(d.temp)}
 fill="steelblue"
 />
-{/each}
+{each/}
+
 </svg>
 
 
